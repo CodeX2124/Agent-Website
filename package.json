@@ -1,24 +1,32 @@
 {
-  "name": "agent_website",
-  "version": "0.1.0",
+  "name": "startup-nextjs-template",
+  "version": "2.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.2.1"
+    "eslint": "^8.56.0",
+    "eslint-config-next": "15.1.6",
+    "next": "^15.1.6",
+    "next-themes": "^0.2.1",
+    "nodemailer": "^6.10.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-modal-video": "^2.0.1"
   },
   "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "@types/node": "^20.8.9",
+    "@types/nodemailer": "^6.4.17",
+    "@types/react": "19.0.8",
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
   }
 }
